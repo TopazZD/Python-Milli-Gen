@@ -1,0 +1,2 @@
+This is a default input file.
+You better put something exciting here!
