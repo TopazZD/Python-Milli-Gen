@@ -44,4 +44,4 @@ for char in input_txt:
 img.save("./output.png")
 img.close()
 
-input("Done! Saved as output.png\nPress any key to exit.")
+input("Done! Saved as output.png\nPress enter to exit.")
