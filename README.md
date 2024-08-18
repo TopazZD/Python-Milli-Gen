@@ -8,4 +8,4 @@ Input your desired text into input.txt and run the script. The output will be sa
 Requires the Pillow package, install it by running:
 `python -m pip install Pillow`
 
-Alphabet made by Gaspin.
+Charset made by Gaspin.
