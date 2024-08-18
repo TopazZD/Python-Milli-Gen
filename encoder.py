@@ -42,3 +42,6 @@ for char in input_txt:
     current_x = current_x + 2
 
 img.save("./output.png")
+img.close()
+
+input("Done! Saved as output.png\nPress any key to exit.")
