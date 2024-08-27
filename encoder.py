@@ -30,16 +30,16 @@ for char in input_txt:
             img.putpixel((current_x, current_y + i), int(color_correct(guide[char][i]), base=16))
     else:
         if char == " ":
-            current_x = current_x + 1
+            current_x += 1
             continue
         elif char == "\n":
-            current_y = current_y + 7
+            current_y += 7
             current_x = 0
             continue
         else:
             for i in range(5):
                 img.putpixel((current_x, current_y + i), int("0xFFFFFF", base=16))
-    current_x = current_x + 2
+    current_x += 2
 
 img.save("./output.png")
 img.close()
